@@ -1,0 +1,116 @@
+<html>
+<center><head><title>Formulario De Los Videojuegos</title></head>
+<body bgcolor="orange">
+
+<H1>F O R M U L A R I O   D E   L O S  V I D E O J U E G O S</H1>
+
+<center><font face="Verdana"<b><i><u><h3>Conteste Correctamente El Siguiente Formulario</h3></b></i></u></font></center>
+
+<from action="formularios.html" method="get" autocomplete>
+
+<h3>Ingrese Su Nombre Completo</h3>
+<label from="nombre completo">Nombre Completo:</label>
+<input type="nombre completo" type="text" value="" size="60" placefolder="nombre completo">
+
+<h3>Cual Es Su Genero<h3/>
+<input type="radio" name="sexo" value="masculino" checked> Masculino
+<br>
+<input type="radio" name="sexo" value="femenino" checked> Femenino
+<br>
+
+<h3> Seleccione Su Pltaforma Favorita </h3>
+<label from="Plataformas">Pltaformas:</label>
+<select name="Plaataformas">
+<option value="Xbox">Xbox</option>
+<option value="Play Station">Play Station</option>
+<option value="Nintendo">Nintendo</option>
+<option value="Mobile">Mobile</option>
+<option value="Pc">Pc</option>
+</select>
+
+<h3> Que Tanto Le Gusta Esa Plataforma </h3>
+<label form="range">Rango De Agrado:</label>
+<input type="range" name="medicion" min="0" max="100">
+
+<h3> Escriba Por que Es Su Favorita </h3>
+<textarea name="message" rows="10" cols="30">
+Escribe Aqui tu Respuesta...
+</textarea>
+
+<h3> Que Numero De Calificacion Le Asignaria </h3>
+<label form="number">Calificacion:</label>
+<input type= "number" name="quantity" min="1" max="100" step="3">
+
+<h3> De La Siguiente Lista Elija El Juego Que Mas Le Guste </h3>
+<label from="Juegos">Elija Uno:</label>
+<input list="Juegos">
+<datalist id="Juegos">
+<option value="Gta v">
+<option value="Minecraft">
+<option value="FreeFire">
+<option value="Fortnite">
+<option value="Call Of Duty Warzone">
+</datalist>
+
+<h3> Si No Le Gusta Alguno De La Lista Busquelo Aqui </h3>
+<label form="search">Search:</label>
+<input type="search" name="googlesearch">
+
+<h3> Si Gusta Puede Subir Una Archivo De Su Video Juego Favorito </h3>
+<label form="fichero">Fichero:</label>
+<input type="file" name="img" multiple>
+<br><br>
+<input type="submit" value="subir">
+</form>
+
+<h3> Que Puntuacion Le Da A Ese Juego </h3>
+<label form="points">Puntuacion:</label>
+<input type="number" name="points" min="0" max="100" step="10" value="">
+
+<h3> Ingrese Alguna Url De Su Juego Favorito </h3>
+<label form="url">Url:</label>
+<input type="url" name="homepage">
+
+<center><font face="Verdana"<b><i><u><h3>Para Finalizar Complete Los Datos Que Se Le Solicitan</h3></b></i></u></font></center>
+
+<h3> Hora Actual </h3>
+<label form="time">Hora:</label>
+<input type="time" name="usr_time">
+
+<h3> Fecha </h3>
+<label form="date">Fecha:</label>
+<input type="date" name="fecha" min="2000-01-02">
+
+<h3> Tiempo </h3>
+<label form="datetime-">Fecha/Hora:</label>
+<input type="datetime-local" name="fechahora">
+
+<h3> Semana </h3>
+<label form="week">Semana Año:</label>
+<input type="week">
+
+<h3> Ingrese Su Correo Electronico </h3>
+<label form="email">E-mail:</label>
+<input type="email" name="email" autocomplete="off">
+
+<h3> Registre Una Contraseña</h3>
+<label from="password">Contraseña:</label>
+<input type="password" name="psw" requeried>
+
+<h3> Conteste El SIguiente Cuadro De Verificacion Seleccione Solo Frutas </h3>
+<input type="checkbox" name="opcion1" value="Manzana"> Manzana<br>
+<input type="checkbox" name="opcion1" value="Zanahoria"> Zanahoria<br>
+<input type="checkbox" name="opcion1" value="Sandia"> Sandia<br>
+<input type="checkbox" name="opcion1" value="Papa"> Papa<br>
+<input type="checkbox" name="opcion1" value="Uva"> Uva<br>
+
+<center><font face="Verdana"<b><i><u><h3>Gracias Por Contestar Este Formulario</h3></b></i></u></font></center>
+
+<p><a href="INDEX.html">Regresar</a> A La Pagina Principal.</p>
+
+</body>
+</html>
+
+
+
+
